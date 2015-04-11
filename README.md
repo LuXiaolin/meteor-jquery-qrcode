@@ -6,9 +6,9 @@ Meteor jquery smart package for creating qrcodes.
     meteor add dschulz:jquery-qrcode
 
 Originally by [EtherPOS](http://www.etherpos.com/ "EtherPOS")
-Forked by github.com/dschulz
 
-meteor add dschulz:jquery-qrcode
+(Forked by github.com/dschulz in order to update the jQuery.qrcode library)
+
 
 Original jquery plug-in information & authorship
 =================================================
