@@ -7,7 +7,42 @@ Meteor jquery smart package for creating qrcodes.
 
 Originally by [EtherPOS](http://www.etherpos.com/ "EtherPOS")
 
-(Forked by github.com/dschulz in order to update the jQuery.qrcode library)
+(Forked by [dschulz](https://github.com/dschulz) in order to update the jQuery.qrcode library)
+
+
+Quick usage:
+=============
+
+
+In a template: 
+
+    <template name="sometemplate">
+
+         <h1>QR Code should appear below</h1>
+         <br /><br />     
+         <div id="qrcode"></div>
+     
+    </template>
+
+
+In client JS code:
+
+    Template.sometemplate.rendered = function(){
+       $('#qrcode').qrcode( { 
+            text: Random.secret(32), 
+            render: 'canvas',
+            width: 128,
+            height: 128, 
+            ecLevel: 'H',
+            fill: "#910101",
+            background: "#fafafa",
+            radius: 0.2,
+        }); 
+    };
+
+
+
+Please refer to the [original documentation](http://larsjung.de/jquery-qrcode/) to see available options.
 
 
 Original jquery plug-in information & authorship
