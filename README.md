@@ -47,7 +47,7 @@ Please refer to the [original documentation](http://larsjung.de/jquery-qrcode/) 
 
 Original jquery plug-in information & authorship
 =================================================
-jQuery.qrcode 0.2 - http://larsjung.de/qrcode - MIT License
+[jQuery.qrcode 0.11.0](http://larsjung.de/qrcode) - MIT
 
 Uses [QR Code Generator](http://www.d-project.com/qrcode/index.html) (MIT), appended to the end of this file.
 
