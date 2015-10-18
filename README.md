@@ -2,7 +2,7 @@
 
 [![license][license-img]][github] [![web][web-img]][web] [![github][github-img]][github]
 
-[jQuery.qrcode](https://larsjung.de/jquery-qrcode/) v0.12.0, a jQuery plugin for dynamically generating QR codes. It is a wrapper for the more generic [QR Code Generator][qrcode] (MIT).
+[jQuery.qrcode](https://larsjung.de/jquery-qrcode/) v0.12.0, a jQuery plugin for dynamically generating QR codes. It is a wrapper for the more generic [QR Code Generator][qrcode-generator] (MIT).
 
 See the [demo](demo) to get a first impression.
 
@@ -126,12 +126,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-[web]: https://larsjung.de/jquery-qrcode/
 [github]: https://github.com/lrsjng/jquery-qrcode
+[web]: https://larsjung.de/jquery-qrcode/
 [demo]: https://larsjung.de/jquery-qrcode/latest/demo/
+[qrcode-generator]: https://github.com/kazuhikoarase/qrcode-generator
 
 [license-img]: https://img.shields.io/badge/license-MIT-a0a060.svg?style=flat-square
 [web-img]: https://img.shields.io/badge/web-larsjung.de/qrcode-a0a060.svg?style=flat-square
 [github-img]: https://img.shields.io/badge/github-lrsjng/jquery--qrcode-a0a060.svg?style=flat-square
-
-[qrcode]: https://github.com/kazuhikoarase/qrcode-generator
