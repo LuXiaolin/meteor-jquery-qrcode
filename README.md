@@ -2,9 +2,9 @@
 
 [![license][license-img]][github] [![web][web-img]][web] [![github][github-img]][github]
 
-[jQuery.qrcode](https://larsjung.de/jquery-qrcode/) v0.12.0, a jQuery plugin for dynamically generating QR codes. It is a wrapper for the more generic [QR Code Generator][qrcode-generator] (MIT).
+[jQuery.qrcode][web] v0.12.0, a jQuery plugin for dynamically generating QR codes. It is a wrapper for the more generic [QR Code Generator][qrcode-generator] (MIT).
 
-See the [demo](demo) to get a first impression.
+See the [demo][demo] to get a first impression.
 
 ## Installation
 
@@ -97,11 +97,11 @@ if (Meteor.isClient) {
 
 ## Demo
 
-* [Official demo](demo)
+* [Official demo][demo]
 
 ## Documentation
 
-* [Official documentation](web)
+* [Official documentation][web]
 
 ## License
 The MIT License (MIT)
