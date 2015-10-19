@@ -98,6 +98,7 @@ if (Meteor.isClient) {
 ## Demo
 
 * [Official demo][demo]
+* [Meteor demo](https://jquery-qrcode.meteor.com) ([source code](https://github.com/frabrunelle/jquery-qrcode-demo))
 
 ## Documentation
 
