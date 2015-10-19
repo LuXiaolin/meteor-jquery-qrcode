@@ -1,10 +1,8 @@
 # jQuery.qrcode for Meteor
 
-[![license][license-img]][github] [![web][web-img]][web] [![github][github-img]][github]
+[jQuery.qrcode](https://larsjung.de/jquery-qrcode/) (v0.12.0) enables you to dynamically add QR codes to your website. Choose between rendering the code in a `canvas` or with `divs`. The latter will be fine even for older browser. The generated QR code will be in the least possible version required to encode the content (least number of blocks).
 
-[jQuery.qrcode][web] v0.12.0, a jQuery plugin for dynamically generating QR codes. It is a wrapper for the more generic [QR Code Generator][qrcode-generator] (MIT).
-
-See the [demo][demo] to get a first impression.
+See the [demo](https://larsjung.de/jquery-qrcode/latest/demo/) to get a first impression. This plugin is a wrapper for the more generic [QR Code Generator](https://github.com/kazuhikoarase/qrcode-generator) (MIT).
 
 ## Installation
 
@@ -97,12 +95,12 @@ if (Meteor.isClient) {
 
 ## Demo
 
-* [Official demo][demo]
+* [Official demo](https://larsjung.de/jquery-qrcode/latest/demo/)
 * [Meteor demo](https://jquery-qrcode.meteor.com) ([source code](https://github.com/frabrunelle/jquery-qrcode-demo))
 
 ## Documentation
 
-* [Official documentation][web]
+* [Official documentation](https://larsjung.de/jquery-qrcode/)
 
 ## License
 The MIT License (MIT)
@@ -126,12 +124,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-[github]: https://github.com/lrsjng/jquery-qrcode
-[web]: https://larsjung.de/jquery-qrcode/
-[demo]: https://larsjung.de/jquery-qrcode/latest/demo/
-[qrcode-generator]: https://github.com/kazuhikoarase/qrcode-generator
-
-[license-img]: https://img.shields.io/badge/license-MIT-a0a060.svg?style=flat-square
-[web-img]: https://img.shields.io/badge/web-larsjung.de/qrcode-a0a060.svg?style=flat-square
-[github-img]: https://img.shields.io/badge/github-lrsjng/jquery--qrcode-a0a060.svg?style=flat-square
