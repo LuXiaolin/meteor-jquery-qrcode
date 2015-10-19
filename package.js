@@ -2,7 +2,7 @@ Package.describe({
   summary: "jQuery.qrcode - a jQuery plugin for dynamically generating QR codes",
   version: "1.0.2",
   name: "dschulz:jquery-qrcode",
-  git: "https://github.com/frabrunelle/jquery-qrcode.git",
+  git: "https://github.com/frabrunelle/meteor-jquery-qrcode.git",
 });
 
 Package.onUse(function (api) {
